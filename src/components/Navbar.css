@@ -1,0 +1,79 @@
+/* src/components/Navbar.css */
+
+/* Estilo para o contêiner de navegação */
+.navbar {
+    position: fixed; /* Faz o Navbar fixo no topo da página */
+    top: 0;
+    left: 0;
+    width: 100%; /* Faz com que o Navbar ocupe toda a largura da página */
+    background-color: #85287e; /* Cor de fundo do Navbar */
+    z-index: 1000; /* Garante que o Navbar fique acima de outros elementos */
+    /* padding: 1rem; Espaçamento interno do Navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Estilo para o logo */
+  .navbar-logo {
+    height: 70px;
+    width: auto;
+    background-color: rgb(252, 249, 251); /* Cor de fundo da logo */
+    padding: 0.5rem; /* Espaçamento interno opcional */
+    z-index: 1; /* Garante que a logo fique acima do fundo do menu */
+  }
+  
+  /* Estilo para a lista de navegação */
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para os itens da lista */
+  .navbar-menu li {
+    margin-right: 1rem;
+    padding-right: 1rem; /* Espaçamento interno à direita */
+  }
+  
+  /* Adicionar borda à direita em todos os itens exceto o último */
+  .navbar-menu li:not(:last-child) {
+    border-right: 2px solid #daa925; /* Cor e estilo da borda */
+  }
+
+  /* Estilo para links de navegação */
+  .navbar-menu a {
+    color: white; /* Cor do texto no menu */
+    text-decoration: none;
+  }
+  
+  .navbar-menu a:hover {
+    color: #fff; /* Cor do texto ao passar o mouse */
+  }
+  
+  /* Estilo para o botão de logout */
+  .navbar-logout {
+    background-color: #ef4444; /* bg-red-500 */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .navbar-logout:hover {
+    background-color: #dc2626; /* bg-red-600 */
+  }
+
+  /* Estilo para o contêiner de ícones sociais */
+.navbar-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Espaçamento entre os ícones */
+  }
+  
+  /* Opcional: Ajustar o tamanho dos ícones */
+  .navbar-social-icons svg {
+    fill: white; /* Cor dos ícones */
+  }

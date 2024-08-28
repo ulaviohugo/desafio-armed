@@ -1,0 +1,11 @@
+.news-section {
+    background-color: #f4f4f4; /* Cor de fundo, ajuste conforme necessário */
+    height: 70vh; /* Altura da seção */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; Centraliza o conteúdo vertical e horizontalmente */
+    padding: 20px; /* Ajuste o preenchimento conforme necessário */
+    color: #333; /* Cor do texto para melhor contraste, ajuste conforme necessário */
+    font-size: 37px;
+  }
+  

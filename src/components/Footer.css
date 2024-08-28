@@ -1,0 +1,14 @@
+/* src/components/Footer.css */
+
+/* Estilo para o rodapé */
+.footer {
+    background-color: #d8dde5;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #e1e1e1;
+    /* position: absolute; Posiciona o rodapé na parte inferior da página */
+    bottom: 0;
+    width: 100%; /* Garante que o rodapé ocupe toda a largura da página */
+    margin-top: 0; /* Empurra o rodapé para o final do contêiner flexível */
+  }
+  

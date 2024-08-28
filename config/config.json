@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",  
+    "database": "bd_armed",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "",  
+    "database": "bd_armed_test",  
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "",
+    "database": "bd_armed_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

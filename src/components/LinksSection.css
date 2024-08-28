@@ -1,0 +1,34 @@
+.links-section {
+    background-image: url('/public/assets/images/MapaMundo.jpg');
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    width: 100%;
+    position: relative; /* Permite usar z-index se necessário */
+    z-index: 1; /* Garante que a imagem de fundo da seção tenha prioridade */
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
+    padding: 20px; /* Adiciona algum espaçamento interno */
+}
+
+.links-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Espaço entre o texto e as imagens */
+}
+
+.links-images {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* 8 colunas */
+    gap: 10px; /* Espaçamento entre as imagens */
+    width: 100%; /* Faz com que a grid use a largura total disponível */
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+}
+
+.links-images img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse os limites do contêiner */
+    height: auto;
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+}

@@ -1,0 +1,13 @@
+.hero-banner {
+    width: 100%;
+    height: 70vh; /* Altura do HeroBanner */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  

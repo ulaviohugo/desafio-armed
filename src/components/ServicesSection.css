@@ -1,0 +1,47 @@
+.services-section {
+    background-color: rgba(233, 242, 241, 0.7); /* Cor #E9F2F1 com opacidade */
+    height: 50vh; /* Altura da seção */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que os itens quebrem a linha */
+    padding: 20px; /* Ajuste o preenchimento conforme necessário */
+    color: #333; /* Cor do texto para melhor contraste */
+    overflow-y: auto; /* Permite rolagem se o conteúdo exceder a altura */
+  }
+  
+  .service-item {
+    width: calc(25% - 20px); /* Cada item ocupa 25% da largura menos a margem */
+    margin: 10px; /* Espaço entre os serviços */
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 8px; /* Arredondamento dos cantos */
+    padding: 15px; /* Espaçamento interno */
+    transition: background-color 0.3s ease; /* Transição suave para o hover */
+    text-align: center; /* Centraliza o texto */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    border: 1px solid transparent; /* Borda padrão transparente */
+    display: flex;
+    flex-direction: column; /* Alinha imagem e texto em coluna */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+  }
+  
+  .service-item:hover {
+    
+  }
+  
+  .service-item img {
+    width: 300px; /* Aumenta o tamanho da imagem para ocupar toda a largura do item */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 200px; /* Limita a altura máxima da imagem */
+    border-radius: 8px; /* Aplica o mesmo border-radius à imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+  }
+  
+  .service-item p {
+    font-size: 14px; /* Diminui o tamanho do texto */
+    margin: 0; /* Remove a margem do parágrafo */
+    color: #333; /* Cor do texto */
+  }
+
+  h2{
+    font-size: 37px;
+  }

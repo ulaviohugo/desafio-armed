@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    height: 100vh; /* Ocupa toda a altura da página */
+  }
+  
+  .logo-section {
+    flex: 1;
+    background-color: #ffffff; /* Cor de fundo para a área da logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-image {
+    max-width: 80%; /* Ajuste conforme necessário */
+    height: auto;
+  }
+  
+  .form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #85287e; /* Cor de fundo para a área do formulário */
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    width: 100%;
+    max-width: 400px; /* Largura máxima do formulário */
+    background-color: #ffffff; /* Fundo branco para o formulário */
+    padding: 20px;
+    border-radius: 8px; /* Adiciona bordas arredondadas ao formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao formulário */
+  }
+  
+  input,
+  select,
+  button {
+    margin-bottom: 15px; /* Espaçamento entre os elementos */
+  }
+  
+  input,
+  select {
+    padding: 10px; /* Espaçamento interno dos inputs */
+    border: 1px solid #d1d5db; /* Borda cinza */
+    border-radius: 8px; /* Bordas arredondadas */
+  }
+  
+  button {
+    background-color: #85287e; /* Cor de fundo para o botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão do botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    padding: 10px; /* Espaçamento interno do botão */
+    border-radius: 8px; /* Bordas arredondadas para o botão */
+  }
+  
+  button:disabled {
+    background-color: #d0a6c7; /* Cor do botão desativado */
+    color: #b5a1b5; /* Cor do texto do botão desativado */
+    cursor: not-allowed; /* Cursor para botão desativado */
+  }
+  

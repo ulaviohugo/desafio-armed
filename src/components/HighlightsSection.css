@@ -1,0 +1,15 @@
+.highlights-section {
+    background-color: rgba(136, 17, 126, 0.7); /* Cor com opacidade */
+    height: 77vh; /* Altura da seção */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; Centraliza o conteúdo vertical e horizontalmente */
+    color: white; /* Cor do texto para melhor contraste */
+    padding: 20px; /* Ajustar o preenchimento conforme necessário */
+    font-size: 30px;
+  }
+  
+  .highlights-content {
+    text-align: center; /* Centraliza o texto dentro da seção */
+  }
+  
